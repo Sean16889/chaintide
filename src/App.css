@@ -1,0 +1,81 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  flex: 1;
+  display: flex;
+  background: #07080A;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.App {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Chain_Header{
+  background: linear-gradient( 90deg, rgba(17,18,20,0.75) 5%, #07080A 76%);
+  box-shadow: inset 0px 1px 1px 1px rgba(255,255,255,0.1);
+  border-radius: 16px 16px 16px 16px;
+  border: 1px solid;
+  max-width: 1280px;
+}
+
+.connect-btn{
+  background: #E6E6E6;
+  box-shadow: inset 0px 1px 0px 0px #FFFFFF, inset 0px -1px 0px 0px rgba(0,0,0,0.2), 0px 0px 14px 0px rgba(255,255,255,0.19), 0px 0px 0px 2px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+
+
+.centerblock{
+  background: url('./assets/Home_center_bg.png') center center;
+  background-size: 100% 100%;
+}
+.centerblock_title{
+  font-family: Inter, Inter;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+}
