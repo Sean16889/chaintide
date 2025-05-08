@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "antd": "^5.24.8",
-    "bear-react-carousel": "^5.2.1",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

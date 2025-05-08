@@ -14,6 +14,7 @@ import Item10 from '../../assets/swipers/item10.png';
 import Item11 from '../../assets/swipers/item11.png';
 import Item12 from '../../assets/swipers/item12.png';
 import Item13 from '../../assets/swipers/item13.png';
+
 import { useWindowSize } from '../../hooks/useWindowSize';
 export default function Partners() {
 
@@ -41,8 +42,24 @@ export default function Partners() {
              alt: 'partners6'
         },
         {
-            src: Item7,
-             alt: 'partners7'
+            src: Item1,
+            alt: 'partners1'
+        },
+        {
+            src: Item2,
+            alt: 'partners2'
+        },
+        {
+            src: Item3,
+            alt: 'partners3'
+        },
+        {
+            src: Item4,
+             alt: 'partners4'
+        },
+        {
+            src: Item6,
+             alt: 'partners6'
         },
     ]
     
@@ -50,6 +67,10 @@ export default function Partners() {
         {
             src: Item5,
             alt: 'partners5'
+        },
+        {
+            src: Item7,
+            alt: 'partners7'
         },
         {
             src: Item8,
@@ -61,19 +82,19 @@ export default function Partners() {
         },
         {
             src: Item10,
-             alt: 'partners10'
+            alt: 'partners10'
         },
         {
             src: Item11,
-             alt: 'partners11'
+            alt: 'partners11'
         },
         {
             src: Item12,
-             alt: 'partners12'
+            alt: 'partners12'
         },
         {
             src: Item13,
-             alt: 'partners13'
+            alt: 'partners13'
         },
     ]
 
@@ -83,8 +104,9 @@ export default function Partners() {
             <StyledGradientText className='text-center text-xl xl:text-[30px]/[70px] 2xl:text-[30px]/[70px]'>Partners</StyledGradientText>
             <div className='w-full min-h-[38px]  mt-[26px] xl:mt-[53px] 2xl:mt-[53px] '>
                 <div className='w-[350px] xl:w-[1280px] 2xl:w-[1280px] mx-auto flex flex-col items-center'>
-                    <PartnersSwiper   data={pic}   PerView={isMobile ? 3: 5} moveTime={1500}  spaceBetween={50}   />
-                    <PartnersSwiper   data={pic2}  moveTime={1500}  className={'mt-[30px] xl:mt-[53px] 2xl:mt-[53px] xl:mr-[50px] 2xl:mr-[50px]'} PerView={ isMobile ? 3 : 6} spaceBetween={isMobile ? 30 : 10}  />
+                    <PartnersSwiper   data={pic}   direction={'ltr'} />
+                    
+                    <PartnersSwiper   data={pic2}  direction={'rtl'}  className={'mt-[30px] xl:mt-[53px] 2xl:mt-[53px]'}  />
                 </div>
             </div>
         </div>
