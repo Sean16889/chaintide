@@ -4,7 +4,6 @@ import Header from './components/Header';
 import MibleHeader from './components/Header/Mible';
 import Footer from './components/Footer';
 import './App.css'
-import 'bear-react-carousel/dist/index.css';
 import { useWindowSize } from './hooks/useWindowSize';
 
 function App() {
