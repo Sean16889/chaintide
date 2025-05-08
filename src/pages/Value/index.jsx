@@ -12,7 +12,7 @@ export default function FullLinkCoverage() {
   const { isMobile } =  useWindowSize();
 
   return (
-    <FullLinkContainer className='min-h-[500px] px-[15px] xl:px-[36px] 2xl:px-[36px] xl:pb-[225px] 2xl:pb-[225px] pb-[100px]'>
+    <FullLinkContainer className='min-h-[500px] px-[15px] lg:px-[36px] xl:px-[36px] 2xl:px-[36px] xl:pb-[225px] 2xl:pb-[225px] pb-[100px]'>
        <Timeline
           style={{height:'100%'}}
           mode="alternate"

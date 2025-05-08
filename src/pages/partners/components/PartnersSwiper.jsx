@@ -2,7 +2,6 @@ import React, { useRef,useState, useCallback,useEffect } from 'react';
 // Import Swiper React components
 // import BearCarousel, {BearSlideCard} from 'bear-react-carousel';
 import useEmblaCarousel from 'embla-carousel-react'
-import Autoplay from 'embla-carousel-autoplay'
 import AutoScroll from 'embla-carousel-auto-scroll'
 import './styles.css'
 import { useWindowSize } from '../../../hooks/useWindowSize';
@@ -15,7 +14,7 @@ export default function PartnersSwiper({data,className,direction}) {
                                                   loop: true,
                                                   direction:direction,
                                                   align:'center'
-                              },[AutoScroll({ playOnInit: false })])
+                              },[AutoScroll({ playOnInit: false, speed:0.5  })]) // Auto Scroll也提供方向控制direction: direction === 'rtl' ?"backward" :'forward'
   useEffect(() => {
   
     if (emblaApi) {
@@ -30,30 +29,14 @@ export default function PartnersSwiper({data,className,direction}) {
   const toggleAutoplay = useCallback(() => {
     const autoScroll = emblaApi?.plugins()?.autoScroll
     if (!autoScroll) return
-
     // const playOrStop = autoScroll.isPlaying()
     //   ? autoScroll.stop
     //   : autoScroll.play
-
+   
     autoScroll.play()
   }, [emblaApi])
 
-  // useEffect(() => {
-  //   const autoScroll = emblaApi?.plugins()?.autoScroll
-  //   if (!autoScroll) return
-
-  //   setIsPlaying(autoScroll.isPlaying())
-  //   emblaApi
-  //     .on('autoScroll:play', () => setIsPlaying(true))
-  //     .on('autoScroll:stop', () => setIsPlaying(false))
-  //     .on('reInit', () => setIsPlaying(autoScroll.isPlaying()))
-  // }, [emblaApi])
-
-    // const datas = data.map(row => {
-    //     return <BearSlideCard key={row.alt}>
-    //               <img src={row.src} style={{height:'38px'}}  alt={row.alt}     srcset="" />
-    //           </BearSlideCard>;
-    // });
+  
   return (
     
     <div className={`embla  ${className}`}  dir={direction} >

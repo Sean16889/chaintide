@@ -36,9 +36,9 @@ export default function Footer({isMobile ,scrollToRef}) {
 
   return (
     <div className='w-full mt-[56px]  pt-[56px] xl:mt-[112px] 2xl:mt-[112px]  xl:pt-[112px] 2xl:pt-[112px] px-[15px]  xl:px-[24px] 2xl:px-[24px] pb-[51px]'>
-        <div className='w-full 2xl:h-[362px] xl:h-[362px]  xl:px-[128px] 2xl:px-[128px] px-0'>
-          <div className='w-full xl:h-full 2xl:h-full flex flex-col xl:flex-row 2xl:flex-row border-t-[1px] pt-[97px] justify-between border-[#FFFFFF] pb-3'>
-            <div className='w-full xl:w-[50%] h-[362px] 2xl:w-[50%] 2xl:h-full xl:h-full flex flex-col  justify-between pb-3 boder-r-[1px] border-[#1B1C1E]'>
+        <div className='w-full 2xl:h-[362px] xl:h-[362px] lg:h-[362px] lg:px-[128px]  xl:px-[128px] 2xl:px-[128px] px-0'>
+          <div className='w-full lg:h-full xl:h-full 2xl:h-full flex flex-col lg:flex-row xl:flex-row 2xl:flex-row border-t-[1px] pt-[97px] justify-between border-[#FFFFFF] pb-3'>
+            <div className='w-full lg:w-[50%] lg:h-full  xl:w-[50%] h-[362px] 2xl:w-[50%] 2xl:h-full xl:h-full flex flex-col  justify-between pb-3 boder-r-[1px] border-[#1B1C1E]'>
                 <div className='flex'>
                   <span className='text-sm font-medium text-[#6A6B6C]'>Developers:</span>
                   <div className='ml-[80px]'>
@@ -69,7 +69,7 @@ export default function Footer({isMobile ,scrollToRef}) {
                    </div>
                 </div>
             </div>
-            <div className='w-full xl:w-[50%] h-[362px] 2xl:w-[50%] pl-0 xl:pl-[76px] 2xl:pl-[76px] mt-[30px] xl:mt-0 2xl:mt-0 xl:h-full 2xl:h-full flex flex-col items-center  justify-between pb-3 2xl:border-l-[1px] xl:border-l-[1px] border-[#1B1C1E]'>
+            <div className='w-full lg:w-[50%] lg:h-full  xl:w-[50%] h-[362px] 2xl:w-[50%] pl-0 lg:pl-[76px] xl:pl-[76px] 2xl:pl-[76px] mt-[30px] lg:mt-0 xl:mt-0 2xl:mt-0 xl:h-full 2xl:h-full flex flex-col items-center  justify-between pb-3 lg:border-l-[1px] 2xl:border-l-[1px] xl:border-l-[1px] border-[#1B1C1E]'>
                 <div className='w-full flex '>
                   <span className='text-sm font-medium text-[#6A6B6C]'>Investor:</span>
                   <div className='ml-[80px]'>
@@ -87,11 +87,11 @@ export default function Footer({isMobile ,scrollToRef}) {
         {
           !isMobile 
           &&
-          <div className='w-full h-[76px] mx-auto mt-[112px] 2xl:px-[128px] xl:px-[128px] px-0'>
-              <footer className='h-full xl:px-[36px] 2xl:px-[36px] flex  items-center justify-between'>
+          <div className='w-full h-[76px] mx-auto lg:px-[128px] mt-[112px] 2xl:px-[128px] xl:px-[128px] px-0'>
+              <footer className='h-full lg:px-[36px] xl:px-[36px] 2xl:px-[36px] flex  items-center justify-between'>
                           <div className='left-btn-block flex items-center cursor-pointer'>
-                              <img src={Logo} className='h-[30px] w-[30px] xl:h-[43px] xl:w-[43px]'  alt='logo' />
-                              <span className='text-lg text-white/[.8]'>Chain Tide</span>
+                              <img src={Logo} className='h-[30px] w-[30px] lg:w-[38px] lg:h-[38px] xl:h-[43px] xl:w-[43px] 2xl:h-[43px] xl:w-[43px] '  alt='logo' />
+                              <span className='text-lg text-white/[.8] lg:text-base'>Chain Tide</span>
                           </div>
                           <div className='right-btn-block flex items-center flex items-center'>
                               <div>

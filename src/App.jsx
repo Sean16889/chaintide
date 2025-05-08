@@ -21,10 +21,8 @@ function App() {
   };
   
   const{ isMobile } = useWindowSize()
-
-  console.log('Mobile',isMobile)
   return (
-    <div className="App">
+    <div className="App  xl:max-w-[1248px] 2xl:max-w-[1440px]">
       { isMobile
        ?   
         <MibleHeader scrollToRef={(refKey) => {

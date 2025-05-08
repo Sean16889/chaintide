@@ -103,10 +103,10 @@ export default function Partners() {
         <div  className='pt-[103px] xl:pt-[207px] xl:pb-[162px] 2xl:pt-[207px] 2xl:pb-[162px] flex flex-col items-center w-full px-[15px]'>
             <StyledGradientText className='text-center text-xl xl:text-[30px]/[70px] 2xl:text-[30px]/[70px]'>Partners</StyledGradientText>
             <div className='w-full min-h-[38px]  mt-[26px] xl:mt-[53px] 2xl:mt-[53px] '>
-                <div className='w-[350px] xl:w-[1280px] 2xl:w-[1280px] mx-auto flex flex-col items-center'>
-                    <PartnersSwiper   data={pic}   direction={'ltr'} />
+                <div className='w-[350px] lg:w-[1070px] xl:w-[1280px] 2xl:w-[1280px] mx-auto flex flex-col items-center'>
+                    <PartnersSwiper   data={pic}   direction={'rtl'} />
                     
-                    <PartnersSwiper   data={pic2}  direction={'rtl'}  className={'mt-[30px] xl:mt-[53px] 2xl:mt-[53px]'}  />
+                    <PartnersSwiper   data={pic2} direction={'ltr'} className={'mt-[30px] xl:mt-[53px] 2xl:mt-[53px]'}  />
                 </div>
             </div>
         </div>
