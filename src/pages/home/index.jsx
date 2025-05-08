@@ -18,9 +18,11 @@ export default function HomePage({ positionRef, propositionRef, serviceRef, part
                   ChainTide surges,Follow the trend.
               </StyledGradientText>
               <Desc className='mt-[10px] lg:mt-[25px] xl:mt-[30px] 2xl:mt-[30px] mb-[30px] lg:mb-[25px] xl:mb-[79px] 2xl:mb-[79px] text-sm  lg:text-sm/[18px]  xl:text-base/[20px] 2xl:text-base/[20px]'>One-stop covering media, communities, on-chain funds and global resources</Desc>
-              <CenterBtn className='mt-[18px] lg:mt-[25px] xl:mt-[30px] 2xl:mt-[30px] lg:px-[28px lg:py-[16px]] xl:px-[31px] xl:py-[18px] 2xl:px-[31px] 2xl:py-[18px]  hover:grow text-base xl:text-[18px] 2xl:text-[18px] font-medium'>
-                  <a href='https://t.me/weljoar' className='text-black lg:text-base' target='_blank'>Apply Now →</a> 
-              </CenterBtn>
+              <a href='https://t.me/weljoar'  target='_blank'>
+                <CenterBtn className='mt-[18px] lg:mt-[25px] xl:mt-[30px] 2xl:mt-[30px] lg:px-[28px lg:py-[16px]] xl:px-[31px] xl:py-[18px] 2xl:px-[31px] 2xl:py-[18px]  hover:grow text-base xl:text-[18px] 2xl:text-[18px] font-medium'>
+                    <span className='text-black lg:text-base'>Apply Now →</span>
+                </CenterBtn>
+              </a> 
               <Tips className='mt-[20px] xl:mt-[32px] xl:mt-[32px]'>The best starting point trusted by web3 projects.</Tips>
           </div>
       </div>
