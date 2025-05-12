@@ -8,7 +8,7 @@ export default function Footer({isMobile ,scrollToRef}) {
 
   const  linkList = [
     {
-        name: 'position',
+        name: 'Positioning',
         id: '#position',
         refKey: 'positionRef',
     },

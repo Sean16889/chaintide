@@ -15,7 +15,7 @@ export default function HomePage({ positionRef, propositionRef, serviceRef, part
       <div ref={positionRef} className='centerblock  h-[600px] xl:h-[927px] 2xl:h-[927px] w-full flex justify-center items-center'>
           <div className='mt-[10px] px-[15px] xl:mt-[75px] 2xl:mt-[75px]'>
               <StyledGradientText className='lg:max-w-[671px]  w-full text-[40px]/[48px] lg:text-[57px]/[63px] xl:text-[64px]/[70px] 2xl:text-[64px]/[70px] xl:w-[755px] 2xl:w-[755px]'>
-                  ChainTide surges,Follow the trend.
+                  Chain Tide surges, Follow the trend.
               </StyledGradientText>
               <Desc className='mt-[10px] lg:mt-[25px] xl:mt-[30px] 2xl:mt-[30px] mb-[30px] lg:mb-[25px] xl:mb-[79px] 2xl:mb-[79px] text-sm  lg:text-sm/[18px]  xl:text-base/[20px] 2xl:text-base/[20px]'>One-stop covering media, communities, on-chain funds and global resources</Desc>
               <a href='https://t.me/weljoar'  target='_blank'>

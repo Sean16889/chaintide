@@ -6,7 +6,7 @@ export default function Header({scrollToRef}) {
 
   const  linkList = [
     {
-        name: 'position',
+        name: 'Positioning',
         id: '#position',
         refKey: 'positionRef',
     },
